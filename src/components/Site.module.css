@@ -6,21 +6,20 @@
     color: white;
 }
 
-.body{
+.body {
     display: flex;
 }
 
-.nav{
-   background-color: white;
+.nav {
+    background-color: white;
     min-height: 400px;
     width: 30%;
-    color:#282c34;
+    color: #282c34;
     font-size: 30px;
-
 }
 
-.content{
-    background-color:#282c34;
+.content {
+    background-color: #282c34;
     min-height: 400px;
     width: 70%;
     color: white;
@@ -33,4 +32,25 @@
     height: 120px;
     text-align: center;
     color: white;
+}
+
+.activeNavLink,
+.navLink {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    color: dimgrey;
+}
+
+.navLink{
+    background-color: #9aface;
+}
+
+.activeNavLink{
+    background-color: #38fa8c;
+    border: 1px solid #cc5403;
+    box-shadow: -5px 5px 6px #cc5403;
 }
